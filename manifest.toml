@@ -49,8 +49,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = ""
-    sha256 = ""
+    url = "https://github.com/New004/sy_mod-sizeinc/archive/refs/tags/alpha.tar.gz"
+    sha256 = "2e2271d27569a440f8c3aabd3fa8d1be570f451dc3637892053f89da91f1b76c"
     #url = "https://github.com/blorpslurp/sync_channel-size-inc/archive/refs/tags/alpha.tar.gz"
     #sha256 = "7581f3f0b7b3db56d0509440a6f4d734ccd2852cb0a2336688f445e53d6d157c"
     # autoupdate.strategy = "latest_github_tag"
