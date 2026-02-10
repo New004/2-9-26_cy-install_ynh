@@ -38,7 +38,7 @@ ram.runtime = "50M"
 
     [install.path]
     type = "path"
-    default = "/"
+    default = "/cytube"
 
     [install.init_main_permission]
     type = "group"
