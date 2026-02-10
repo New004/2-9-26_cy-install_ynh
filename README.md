@@ -5,15 +5,14 @@ It shall NOT be edited by hand.
 
 # CyTube for YunoHost
 
-[![Integration level](https://apps.yunohost.org/badge/integration/cytube)](https://ci-apps.yunohost.org/ci/apps/cytube/)
-![Working status](https://apps.yunohost.org/badge/state/cytube)
-![Maintenance status](https://apps.yunohost.org/badge/maintained/cytube)
+[![Integration level](https://apps.yunohost.org/badge/integration/)](https://ci-apps.yunohost.org/ci/apps/cytube/
+![Maintenance status](https://apps.yunohost.org/badge/maintained/)
 
 [![Install CyTube with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cytube)
 
 *[Read this README in other languages.](./ALL_README.md)*
 
-> *This package allows you to install CyTube quickly and simply on a YunoHost server.*  
+> *This package allows you to install it quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
 
 ## Overview
@@ -24,19 +23,17 @@ Each channel has a playlist where users can queue up videos to play, as well as 
 
 **Shipped version:** 3.86.0~ynh1
 
-**Demo:** <https://cytu.be/>
-
 ## Screenshots
 
-![Screenshot of CyTube](./doc/screenshots/example.jpg)
+![Screenshot](./doc/screenshots/example.jpg)
 
 ## Documentation and resources
 
-- Official app website: <https://cytu.be>
+- Official app website: -
 - Official admin documentation: <https://github.com/calzoneman/sync/wiki/CyTube-3.0-Installation-Guide>
 - Upstream app code repository: <https://github.com/calzoneman/sync>
-- YunoHost Store: <https://apps.yunohost.org/app/cytube>
-- Report a bug: <https://github.com/YunoHost-Apps/cytube_ynh/issues>
+- YunoHost Store: -
+-
 
 ## Developer info
 
