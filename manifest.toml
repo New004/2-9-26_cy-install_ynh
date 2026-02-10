@@ -44,6 +44,12 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.yt_key]
+    ask.en = "Input a youtube api key for youtube playback"
+    ask.fr = "-"
+    type = "string"
+
+
 [resources]
 
     [resources.sources]
