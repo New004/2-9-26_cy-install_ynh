@@ -84,7 +84,7 @@ ram.runtime = "50M"
     type = "boolean"
     default = "false"
 
-   [install.vimeo_boolean]
+    [install.ffmpeg_boolean]
     ask.en = "Enable/disable ffmpeg support if you've installed it"
     ask.fr = "-"
     type = "boolean"
