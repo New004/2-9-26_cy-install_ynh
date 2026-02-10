@@ -121,7 +121,7 @@ io:
 #
 #    $ export YOUTUBE_API_KEY="your key here"
 #    $ curl "https://www.googleapis.com/youtube/v3/search?key=$YOUTUBE_API_KEY&part=id&maxResults=1&q=test+video&type=video"
-youtube-v3-key: ''
+youtube-v3-key: '__YT_KEY__'
 # Limit for the number of channels a user can register
 max-channels-per-user: 0
 # Limit for the number of accounts an IP address can register
@@ -211,7 +211,7 @@ service-socket:
 
 # Twitch Client ID for the data API (used for VOD lookups)
 # https://github.com/justintv/Twitch-API/blob/master/authentication.md#developer-setup
-twitch-client-id: null
+twitch-client-id: '__TWItCH_KEY__'
 
 poll:
   max-options: 50
