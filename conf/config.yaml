@@ -129,11 +129,11 @@ max-accounts-per-ip: 2
 # Minimum number of seconds between guest logins from the same IP
 guest-login-delay: 60
 # Maximum character length of a chat message, capped at 1000 characters
-max-chat-message-length: 640
+max-chat-message-length: 1000
 
 # Allows you to customize the path divider. The /r/ in http://localhost/r/yourchannel
 # Acceptable characters are a-z A-Z 0-9 _ and -
-channel-path: 'o'
+channel-path: '__CHANNEL_PATH__'
 # Allows you to blacklist certain channels.  Users will be automatically kicked
 # upon trying to join one.
 channel-blacklist: []
@@ -211,7 +211,7 @@ service-socket:
 
 # Twitch Client ID for the data API (used for VOD lookups)
 # https://github.com/justintv/Twitch-API/blob/master/authentication.md#developer-setup
-twitch-client-id: '__TWItCH_KEY__'
+twitch-client-id: '__TWITCH_KEY__'
 
 poll:
   max-options: 50
