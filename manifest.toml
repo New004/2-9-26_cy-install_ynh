@@ -38,7 +38,7 @@ ram.runtime = "50M"
 
     [install.path]
     type = "path"
-    default = "/cytube"
+    default = "/"
 
     [install.init_main_permission]
     type = "group"
@@ -72,23 +72,23 @@ ram.runtime = "50M"
     type = "string"
     default = "o"
 
-    [install.ipconn_limit]
-    ask.en = "Limit the number of concurrent socket connections per IP address"
-    ask.fr = "-"
-    type = "string"
-    default = "5"
+    #[install.ipconn_limit]
+    #ask.en = "Limit the number of concurrent socket connections per IP address"
+    #ask.fr = "-"
+    #type = "string"
+    #default = "5"
 
-    [install.vimeo_boolean]
-    ask.en = "Enable/disable workaround for Vimeo blocking your domain"
-    ask.fr = "-"
-    type = "boolean"
-    default = "false"
+    #[install.vimeo_boolean]
+    #ask.en = "Enable/disable workaround for Vimeo blocking your domain"
+    #ask.fr = "-"
+    #type = "boolean"
+    #default = "false"
 
-    [install.ffmpeg_boolean]
-    ask.en = "Enable/disable ffmpeg support if you've installed it"
-    ask.fr = "-"
-    type = "boolean"
-    default = "false"
+    #[install.ffmpeg_boolean]
+    #ask.en = "Enable/disable ffmpeg support if you've installed it"
+    #ask.fr = "-"
+    #type = "boolean"
+    #default = "false"
 
 
 [resources]
