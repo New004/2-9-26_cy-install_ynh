@@ -49,6 +49,11 @@ ram.runtime = "50M"
     ask.fr = "-"
     type = "string"
 
+    [install.twitch_key]
+    ask.en = "Input a twitch api key for twitch livestream playback"
+    ask.fr = "-"
+    type = "string"
+
 
 [resources]
 
