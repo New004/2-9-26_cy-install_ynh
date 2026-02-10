@@ -54,6 +54,24 @@ ram.runtime = "50M"
     ask.fr = "-"
     type = "string"
 
+    [install.site_title]
+    ask.en = "Specify a title that displays on the top left"
+    ask.fr = "-"
+    type = "string"
+    default = "Sync"
+
+    [install.site_description]
+    ask.en = "Specify a description for the site that goes in a meta tag"
+    ask.fr = "-"
+    type = "string"
+    default = "Free, open source synchtube"
+
+    [install.site_description]
+    ask.en = "Customize the path divider (the /r/ in localhost/r/yourchannel) - acceptable characters are a-z A-Z 0-9 _ and -"
+    ask.fr = "-"
+    type = "string"
+    default = "o"
+
 
 [resources]
 
